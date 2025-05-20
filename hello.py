@@ -19,7 +19,7 @@ async def lifespan(app):
 
     
       
-app=FastAPI(title="Grocery Hub",lifespan=lifespan)
+app=FastAPI(title="Runverve",lifespan=lifespan)
 app.include_router(router=user_router)
 app.include_router(router=device_router)
 app.include_router(router=metric_router)
