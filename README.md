@@ -29,7 +29,13 @@ A FastAPI-based backend system to fetch and store user metrics such as hydration
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Swathi2728/Runverve.git
+git clone https://github.com/Swathi2728/Runverve.
+```
+### Install Dependencies
+uv venv
+uv pip install fastapi sqlmodel uvicorn
+
+
 
 
 
